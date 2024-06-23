@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta chrset="UTF-8">
+    <meta http-equiv= "X-UA-Compatible" content="IE=edge">
+    <meta name= "viewport" content ="weidth=device-width, initial-scale=1.0">
+    <title>Tia's Portfolio Website</title>
+    <link rel=" stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7397159b4e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a> </li>
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#projects">Projects</a> </li>
+                    <li><a href="#portfolio">Photography</a> </li>
+                    <li><a href="#contact">Contact</a> </li>
+                </ul>
+
+            </nav>
+            <div class="header-text">
+                <p>Tia Mehta</p>
+                <h1 id="typewriter"></h1>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="script.js">
+        
+
+    </script>
+
+   <!-----------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/Users/tia/Documents/background.png" class="rotate270 positioned-image" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello My name is Tia Mehta, I am studying computer science at Virginia Tech College of Engineering. I am passionate about technology, innovation, and creativity, and am dedicated to building creative and efficient solutions through coding, and imploring my creative strengths. 
+                        Explore my portfolio to see my projects, skills, photography portfolios, experiences, and the journey I am on towards becoming a software developer. 
+                        Thank you for visiting!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience </p>
+                        <p class="tab-links" onclick= "opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br> Python, Java, HTML, CSS, C, Matlab, LC3-Assembly, Command Line</li>
+                            <li><span>Tools</span><br>Git, Maven, Jira, Confluence, Ansible Tower, JFLAP, Logisim, LC3-Simulator, Ecostruxture Control Expert Basic </li>
+                            <li><span>Soft Skills</span><br>Time managment, organization, presentation, teamwork, communication, problem solving </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span> (May 2023 - August 2023) Senior Technical Intern</span><br> Created 400+ automaded tests usign custom Java JUnit framework for Defense Medical Information Data Exchange Project </li>
+                            <li><span> (Feb 2023 - May 2023) Individual Research</span> Developed code on Ecostruxture Control Expert for 4 way traffic light PLC using ladder logic programming. Leveraged timers, input/output blocks, latches and sequencers within the graphical programming language to simulate control on a 4 way traffic light Programmable Logic Interface(PLC). <br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>(2024-Present) Virginia Tech </span><br> B.S. Computer Scienc GPA:N/A</li>
+                            <li><span>(2022-2023) VCU</span><br>B.E. Computer Science GPA: 3.81</li>
+                            <li><span>(2018-2022) Stone Bridge High School</span><br></li>
+                            <li><span> Relevant Courswork: </span><br> Data Structures and Object Programming, Computer Systems, Computer Organization, Discrete Math, Theory of Computation, Software and Application Develement, Introduction to Problem Solving</li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------Projects--------------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="project-list">
+        <div>
+            <i class="fa-solid fa-school"></i>
+            <h2>Canvas Grade Calculator</h2>
+            <p>python script that interacts with Canvas (LMS) API <br>to retrieve data about assignments of specified courses to calculate current and final grades of the course. </p>
+            <a href="https://github.com/tia-mehta/Canvas-Grade-Calculator" target="_blank">View Project</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-spotify"></i>
+            <h2>Spotify Search</h2>
+            <p>Interacted with Spotify Web API<br> to search for artists and retrieve top tracks, using client credential flow for authentication </p>
+            <a href="https://github.com/tia-mehta/Spotify-Search" target="_blank">View Project</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-desktop"></i>
+            <h2>Custom Shell</h2>
+            <p>created a custom shell program with additional commands<br> such as printing process id, parents process id, cd, quit, ls, and a help command listing all command functionalities</p>
+            <a href="https://github.com/tia-mehta/Shell_Project.git " target="_blank">View Project</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-calculator"></i>
+            <h2>ALU Logic Design</h2>
+            <p>Created logic design for an Arithmetic Logic Unit in Logisim<br> using Multiplexer and Decoder logic to perform 4 bit addition, logical AND, NOT, and equality operations based on different user selection bits. </p>
+            <a href="/Users/tia/Desktop/Lab_2.png" target="_blank" >View</a>
+        </div>
+        </div>
+        
+    </div>
+</div>
+<!---------Photography portfolio-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Photography</h1>
+        <div class="photolist">
+            <div class="photos">
+                <img src="/Users/tia/Desktop/IMG_9033.JPG">
+            </div>
+            <div class="photos">
+                <img src="/Users/tia/Desktop/1F13DFDA-4FB9-47A4-B35E-515A2AE5D5E8.jpg">
+            </div>
+            <div class="photos">
+                <img src="/Users/tia/Desktop/BAD99226-9017-45C4-A129-424D1FC9D7A5.jpg">
+            </div>
+            <div class="photos">
+                <img src="/Users/tia/Desktop/IMG_9022.JPG">
+            </div>
+            <div class="photos">
+                <img src="/Users/tia/Desktop/IMG_1214.JPG">
+            </div>
+            <div class="photos">
+                <img src="/Users/tia/Desktop/IMG_0654.JPG">
+            </div>
+            <div class="photos">
+                <img src="/Users/tia/Desktop/IMG_2242.JPG">
+            </div>
+            <div class="photos">
+                <img src="/Users/tia/Desktop/IMG_9032.JPG">
+            </div>
+            <div class="photos">
+                <img src="/Users/tia/Desktop/IMG_9028.JPG">
+            </div>
+            <div class="photos">
+                <img src="/Users/tia/Desktop/F6D3E168-4944-480F-A546-2658BE30283A.jpg">
+            </div>
+            <div class="photos">
+                <img src="/Users/tia/Desktop/F8CD8800-0FDB-4370-9044-2AEBDE78ED6F.jpg">
+            </div>
+            <div class="photos">
+                <img src="/Users/tia/Desktop/DE215D6F-6558-4285-8263-A322BAC37AF7.jpg">
+            </div>
+            <div class="photos">
+                <img src="/Users/tia/Desktop/2DA1CC32-C395-41F4-8701-62EEEC9CF5DD.jpg">
+            </div>
+            <div class="photos">
+                <img src="/Users/tia/Desktop/8F0A09F6-D389-4F79-8B4B-E2DD4D12F11E.jpg">
+            </div>
+            <div class="photos">
+                <img src="/Users/tia/Desktop/919B8D8D-7308-4172-A59E-9A3AE573C14E.jpg">
+            </div>
+            <div class="photos">
+                <img src="">
+            </div>
+            <div class="photos">
+                <img src="">
+            </div>
+            <div class="photos">
+                <img src="">
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------Contact---------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> tia.mehta.us@gmail.com </p>
+                <p><i class="fa-solid fa-paper-plane"></i> mtia@vt.edu</p>
+                <p><i class="fa-solid fa-phone"></i> (571)-352-0409 </p>
+                <div class="social-icons">
+                    <a href="https://github.com/tia-mehta"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/tia-mehta-289912246/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="/Users/tia/Downloads/Tia's_ Resume_2024.pdf" target="_blank" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbynOphZilEoN5h-J7gMzU013d78TjzP6TCzhXUIqYwxzRy1LLg7KKgkn7sAQdMonwLy/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>  
+</body>
+</html>
